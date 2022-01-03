@@ -9,4 +9,4 @@ dataset/
 output/
 predict_optimizer/
 vocab.txt
-
+tmp*/
