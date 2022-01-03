@@ -1,0 +1,12 @@
+BERT_NER/
+bert_base/
+bert_config.json
+bert_config_file/
+checkpoint/
+chinese_L-12_H-768_A-12/
+config/
+dataset/
+output/
+predict_optimizer/
+vocab.txt
+
