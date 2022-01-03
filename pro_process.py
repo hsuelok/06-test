@@ -159,9 +159,7 @@ def pro_process2(text, rst):
                 chec += text[cnt]
                 if rst[cnt][0] == 'E':
                     body += ' '
-                    print(cnt)
             else:
-                print("ccccure:", cnt)
                 cure += text[cnt]
                 if rst[cnt][0] == 'E':
                     body += ' '

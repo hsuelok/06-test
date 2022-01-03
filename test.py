@@ -14,7 +14,7 @@ with BertClient(ip='0.0.0.0', ner_model_dir='./output',
     rst = bc.encode([str])  #测试同时输入两个句子，多个输入同理
     print('rst:', rst) 
     # body, chec, symp, cure, dise = pro_process(str, rst[0])
-    body, chec, symp, cure, dise = pro_process2(str, rst[0])
+    body, chec, cure, symp, dise = pro_process2(str, rst[0])
     print('body', body)
     print('check', chec)
     print('symp', symp)
